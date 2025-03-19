@@ -1,0 +1,8 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { display: flex; flex-direction: column; align-items: center; padding: 20px; }
+.container { width: 90%; max-width: 800px; }
+nav ul { list-style: none; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
+nav a { text-decoration: none; font-size: 16px; color: #333; padding: 8px 12px; }
+form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; }
+button { width: 100%; padding: 10px; border: none; background: #007bff; color: white; border-radius: 5px; cursor: pointer; }
+@media (max-width: 600px) { nav ul { flex-direction: column; align-items: center; } }
