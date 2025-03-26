@@ -1,1 +1,5 @@
-google.com, pub-5235933788088684, DIRECT, f08c47fec0942fa0
+server {
+    location ~ /ads.txt {
+        return 301 https://srv.adstxtmanager.com/19390/https://imbadalkumar.github.io/imagecompressorpro/;
+    }
+}
